@@ -1,0 +1,81 @@
+nav{
+    height: 100%;
+    width: 100px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(255, 244, 244);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 20px;
+}
+nav a{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgb(133, 150, 167);
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.bi{
+    font-size: 15px;
+}
+.container{
+    margin-left: 100px;
+}
+.background-image{
+    height: 500px;
+    width: 100%;
+    background-size: cover;
+    background-image: linear-gradient(45deg,
+    rgba(213, 216, 211, 0.55),
+     rgba(8, 83, 156, 0.55)), url(../assets/background1.jpg);
+    /* background-image:url("https://st2.depositphotos.com/2124221/46809/i/450/depositphotos_468095768-stock-photo-abstract-multicolored-background-poly-pattern.jpg"); */
+}
+.background-image h1{
+    margin-top: 0;
+    text-align: right;
+    padding-right: 50px;
+    font-size: 70px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 100px;
+    text-shadow: 3px 3px 3px rgb(84, 84, 84);
+}
+.background-image h2{
+    text-align: right;
+    padding-right: 50px;
+    font-size: 30px;
+    font-weight: 100;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.icons{
+    text-align: right;
+    padding-right: 50px;
+}
+.icons i{
+    font-size: 30px;
+    padding: 5px;
+}
+.about{
+    padding-left: 20px;
+}
+.about h1{
+    text-align: center;
+}
+.about p{
+    text-align: center;
+    line-height: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.about img{
+    height: 400px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px black;
+    align-items: start;
+    margin-left: 30px;
+}
